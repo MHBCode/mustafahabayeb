@@ -91,3 +91,6 @@ body{
 .contact-banner li{
     cursor: pointer;
 }
+#disqus_thread {
+    z-index: 9999;
+}
