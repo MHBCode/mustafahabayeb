@@ -93,4 +93,7 @@ body{
 }
 #disqus_thread {
     z-index: 9999;
+    position: absolute;
+    top: 30%;
+    width: 60%;
 }
