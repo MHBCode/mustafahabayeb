@@ -34,8 +34,14 @@ body{
     border-radius: 5px;
 }
 .static-background-inner img{
-    width: 10%;
+    width: 3%;
+    
+}
+.imgs-div{
     position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 36%;
     bottom: 2%;
 }
 .first-intro{
@@ -92,10 +98,11 @@ body{
     cursor: pointer;
 }
 #disqus_thread {
-    z-index: 9999;
+    z-index: 9999; /* Set the z-index to a high value */
     position: absolute;
     top: 30%;
-    left: 30%;
+
     width: 60%;
+    left: 20%;
     font-family: 'Space Grotesk', sans-serif;
 }
