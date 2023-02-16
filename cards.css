@@ -61,4 +61,14 @@
       flex-direction: column;
     }
   }
+  @media all and (max-width: 900px) {
+    .cards-list{
+      text-align: center;
+      width: 80%;
+      left: 10%;
+    }
+    .card{
+      margin: 4% 20%;
+    }
+  }
   
